@@ -5,7 +5,7 @@ using UnityEngine;
 public class SimTema2 : MonoBehaviour
 {
     public string nombreAlumno;
-    public int año;
+    public int year;
     public string especialidad;
     // Start is called before the first frame update
     void Start()
@@ -14,11 +14,11 @@ public class SimTema2 : MonoBehaviour
             Debug.Log("Error: Nombre no valido");
 
         } else {
-            if (año <= 0 || año > 5) {
+            if (year <= 0 || year > 5) {
                 Debug.Log("Error: Año no valido");
 
             } else {
-                if (año < 3) {
+                if (year < 3) {
                     Debug.Log("Error: Aun sigues en ciclo basico");
 
                 } else {
